@@ -1,240 +1,531 @@
-<h1 align="center">
-  Hi 👋, I'm Srinivasan
-</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<h3 align="center">
-AWS Cloud ☁️ | DevOps Engineer 🚀 | Terraform ⚡ | Docker 🐳 | Linux 🐧
-</h3>
+<head>
 
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=26&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=AWS+Cloud+Engineer;DevOps+Engineer;Terraform+Specialist;Docker+%7C+Jenkins+%7C+GitHub+Actions;Always+Learning+New+Technologies"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Srinivasan | AWS DevOps Engineer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#030712;
+overflow-x:hidden;
+color:white;
+
+}
+
+/* Animated Background */
+
+body::before{
+
+content:"";
+
+position:fixed;
+
+width:100%;
+height:100%;
+
+background:
+linear-gradient(135deg,#1e3a8a,#7c3aed,#06b6d4,#14b8a6,#2563eb);
+
+background-size:500% 500%;
+
+animation:gradient 15s ease infinite;
+
+z-index:-3;
+
+}
+
+@keyframes gradient{
+
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+
+}
+
+/* Floating Blobs */
+
+.blob{
+
+position:fixed;
+
+border-radius:50%;
+
+filter:blur(80px);
+
+opacity:.4;
+
+animation:float 15s infinite alternate;
+
+z-index:-2;
+
+}
+
+.b1{
+
+width:300px;
+height:300px;
+
+background:#00e5ff;
+
+top:5%;
+left:10%;
+
+}
+
+.b2{
+
+width:400px;
+height:400px;
+
+background:#7c3aed;
+
+bottom:0;
+right:5%;
+
+}
+
+@keyframes float{
+
+from{
+
+transform:translateY(-40px);
+
+}
+
+to{
+
+transform:translateY(40px);
+
+}
+
+}
+
+nav{
+
+display:flex;
+
+justify-content:space-between;
+
+padding:25px 10%;
+
+backdrop-filter:blur(20px);
+
+background:rgba(255,255,255,.05);
+
+position:fixed;
+
+width:100%;
+
+z-index:999;
+
+}
+
+nav h2{
+
+color:#00f7ff;
+
+}
+
+nav ul{
+
+display:flex;
+
+list-style:none;
+
+gap:35px;
+
+}
+
+nav a{
+
+color:white;
+
+text-decoration:none;
+
+font-weight:500;
+
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#00f7ff;
+
+}
+
+.hero{
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:30px;
+
+}
+
+.card{
+
+width:850px;
+
+padding:60px;
+
+text-align:center;
+
+border-radius:30px;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(25px);
+
+border:1px solid rgba(255,255,255,.15);
+
+box-shadow:0 0 50px rgba(0,255,255,.2);
+
+}
+
+.profile{
+
+width:170px;
+
+height:170px;
+
+border-radius:50%;
+
+border:5px solid cyan;
+
+margin-bottom:20px;
+
+box-shadow:0 0 30px cyan;
+
+}
+
+h1{
+
+font-size:60px;
+
+font-weight:800;
+
+margin-bottom:15px;
+
+}
+
+.title{
+
+font-size:26px;
+
+color:#00f7ff;
+
+margin-bottom:20px;
+
+}
+
+.desc{
+
+font-size:18px;
+
+line-height:1.8;
+
+opacity:.9;
+
+margin-bottom:35px;
+
+}
+
+.tech{
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+margin-bottom:40px;
+
+}
+
+.tech span{
+
+padding:12px 22px;
+
+border-radius:40px;
+
+background:rgba(255,255,255,.1);
+
+transition:.3s;
+
+cursor:pointer;
+
+}
+
+.tech span:hover{
+
+background:#00f7ff;
+
+color:black;
+
+transform:translateY(-6px);
+
+}
+
+.btn{
+
+padding:15px 35px;
+
+border-radius:40px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+margin:10px;
+
+display:inline-block;
+
+transition:.4s;
+
+}
+
+.primary{
+
+background:#00f7ff;
+
+color:black;
+
+}
+
+.secondary{
+
+border:2px solid cyan;
+
+color:white;
+
+}
+
+.primary:hover{
+
+transform:scale(1.08);
+
+box-shadow:0 0 25px cyan;
+
+}
+
+.secondary:hover{
+
+background:cyan;
+
+color:black;
+
+}
+
+.stats{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+margin-top:50px;
+
+gap:20px;
+
+}
+
+.box{
+
+padding:25px;
+
+border-radius:20px;
+
+background:rgba(255,255,255,.06);
+
+transition:.4s;
+
+}
+
+.box:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 0 20px cyan;
+
+}
+
+.box h3{
+
+font-size:35px;
+
+color:#00f7ff;
+
+}
+
+.box p{
+
+margin-top:8px;
+
+}
+
+@media(max-width:768px){
+
+h1{
+
+font-size:40px;
+
+}
+
+.stats{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+nav ul{
+
+display:none;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="blob b1"></div>
+<div class="blob b2"></div>
+
+<nav>
+
+<h2>☁ DevOps Portfolio</h2>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#">About</a></li>
+
+<li><a href="#">Projects</a></li>
+
+<li><a href="#">Skills</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div class="card">
+
+<img src="profile.jpg" class="profile">
+
+<h1>Srinivasan</h1>
+
+<div class="title">
+AWS Cloud & DevOps Engineer
+</div>
+
+<p class="desc">
+
+Building Secure • Scalable • Automated Cloud Infrastructure using AWS, Terraform, Docker, Jenkins and GitHub Actions.
+
 </p>
 
----
+<div class="tech">
 
-# 💫 About Me
+<span>☁ AWS</span>
 
-🚀 AWS Cloud & DevOps Engineer
+<span>🏗 Terraform</span>
 
-💻 4+ Years of IT Experience
+<span>🐳 Docker</span>
 
-☁️ Passionate about Cloud Infrastructure, Automation and CI/CD
+<span>⚙ Jenkins</span>
 
-🌱 Currently Learning
+<span>🚀 GitHub Actions</span>
 
-- Kubernetes
-- Helm
-- ArgoCD
-- Amazon EKS
+<span>🐧 Linux</span>
 
-🎯 Goal
+<span>📊 Grafana</span>
 
-Become a Senior Cloud & DevOps Engineer
+<span>🔥 Prometheus</span>
 
----
+</div>
 
-# 🌐 Connect With Me
-
-<p align="left">
-<a href="https://linkedin.com/in/srinivasan">
-<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"/>
+<a href="#" class="btn primary">
+🚀 View Projects
 </a>
 
-<a href="mailto:srinivasansri291999@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail"/>
+<a href="#" class="btn secondary">
+📄 Download Resume
 </a>
 
-<a href="https://github.com/srinivasan">
-<img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"/>
-</a>
-</p>
+<div class="stats">
 
----
+<div class="box">
 
-# ☁️ Cloud
+<h3>4+</h3>
 
-<p>
+<p>Years Experience</p>
 
-<img src="https://skillicons.dev/icons?i=aws"/>
+</div>
 
-</p>
+<div class="box">
 
----
+<h3>15+</h3>
 
-# 🚀 DevOps Stack
+<p>Projects</p>
 
-<p>
+</div>
 
-<img src="https://skillicons.dev/icons?i=docker,jenkins,github,git,linux,bash"/>
+<div class="box">
 
-</p>
+<h3>10+</h3>
 
----
+<p>DevOps Tools</p>
 
-# ⚡ Infrastructure as Code
+</div>
 
-<p>
+<div class="box">
 
-<img src="https://skillicons.dev/icons?i=terraform"/>
+<h3>24x7</h3>
 
-</p>
+<p>Automation</p>
 
----
+</div>
 
-# 📊 Monitoring
+</div>
 
-<p>
+</div>
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=prometheus,grafana"/>
+</section>
 
-</p>
+</body>
 
----
-
-# 💻 Operating Systems
-
-<p>
-
-<img src="https://skillicons.dev/icons?i=linux,ubuntu,windows"/>
-
-</p>
-
----
-
-# 🛠 Featured Projects
-
-## ☁️ AWS Secure Cloud Infrastructure
-
-✔ EC2
-
-✔ VPC
-
-✔ IAM
-
-✔ S3
-
-✔ Route53
-
-✔ RDS
-
-✔ ALB
-
-✔ Auto Scaling
-
-✔ CloudWatch
-
----
-
-## 🚀 Terraform Infrastructure
-
-✔ Reusable Modules
-
-✔ Remote Backend
-
-✔ State Locking
-
-✔ Multi Environment
-
----
-
-## 🐳 Docker Monitoring Stack
-
-✔ Docker Compose
-
-✔ Prometheus
-
-✔ Grafana
-
-✔ Node Exporter
-
-✔ Alerting
-
----
-
-## ⚙ Jenkins CI/CD
-
-✔ Build
-
-✔ Test
-
-✔ Deploy
-
-✔ GitHub Actions
-
----
-
-# 🏆 GitHub Trophy
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&row=1&column=7"/>
-
-</p>
-
----
-
-# 📊 GitHub Stats
-
-<p align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight"/>
-
-</p>
-
----
-
-# 🔥 GitHub Streak
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight"/>
-
-</p>
-
----
-
-# 📈 Contribution Graph
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night"/>
-
-</p>
-
----
-
-# 💼 Tech Stack
-
-![](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws)
-
-![](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform)
-
-![](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
-
-![](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins)
-
-![](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux)
-
-![](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions)
-
-![](https://img.shields.io/badge/CloudWatch-FF9900?style=for-the-badge)
-
-![](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus)
-
-![](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana)
-
----
-
-# ⭐ Quote
-
-> "Automate everything. Build once. Deploy everywhere."
-
----
-
-<p align="center">
-
-⭐ Thanks for visiting my profile ⭐
-
-</p>
+</html>
