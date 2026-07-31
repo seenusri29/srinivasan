@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Srinivasan | AWS DevOps Engineer</title>
+<title>Srinivasan | AWS Cloud & DevOps Engineer</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
 <style>
 
@@ -16,22 +14,16 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Poppins,sans-serif;
-}
-
-html{
-scroll-behavior:smooth;
+font-family:'Poppins',sans-serif;
 }
 
 body{
-
-background:#030712;
-overflow-x:hidden;
+background:#050816;
+overflow:hidden;
 color:white;
-
 }
 
-/* Animated Background */
+/* Animated Gradient */
 
 body::before{
 
@@ -42,136 +34,104 @@ position:fixed;
 width:100%;
 height:100%;
 
-background:
-linear-gradient(135deg,#1e3a8a,#7c3aed,#06b6d4,#14b8a6,#2563eb);
+background:linear-gradient(
+135deg,
+#050816,
+#0f172a,
+#1e3a8a,
+#7c3aed,
+#06b6d4,
+#0f172a
+);
 
 background-size:500% 500%;
 
-animation:gradient 15s ease infinite;
+animation:gradientMove 20s ease infinite;
 
-z-index:-3;
+z-index:-5;
 
 }
 
-@keyframes gradient{
+@keyframes gradientMove{
 
 0%{background-position:0% 50%;}
+
 50%{background-position:100% 50%;}
+
 100%{background-position:0% 50%;}
 
 }
 
-/* Floating Blobs */
+/* Floating Particles */
 
-.blob{
+.particles{
 
 position:fixed;
 
-border-radius:50%;
+top:0;
+left:0;
 
-filter:blur(80px);
+width:100%;
+height:100%;
 
-opacity:.4;
-
-animation:float 15s infinite alternate;
+overflow:hidden;
 
 z-index:-2;
 
 }
 
-.b1{
+.particles span{
 
-width:300px;
-height:300px;
+position:absolute;
 
-background:#00e5ff;
+display:block;
 
-top:5%;
-left:10%;
+width:6px;
 
-}
+height:6px;
 
-.b2{
+border-radius:50%;
 
-width:400px;
-height:400px;
+background:#00f7ff;
 
-background:#7c3aed;
+box-shadow:
+0 0 10px #00f7ff,
+0 0 20px #00f7ff,
+0 0 30px #00f7ff;
 
-bottom:0;
-right:5%;
+animation:float linear infinite;
+
+opacity:.8;
 
 }
 
 @keyframes float{
 
-from{
+0%{
 
-transform:translateY(-40px);
+transform:translateY(100vh) scale(0);
 
-}
-
-to{
-
-transform:translateY(40px);
+opacity:0;
 
 }
 
-}
+20%{
 
-nav{
-
-display:flex;
-
-justify-content:space-between;
-
-padding:25px 10%;
-
-backdrop-filter:blur(20px);
-
-background:rgba(255,255,255,.05);
-
-position:fixed;
-
-width:100%;
-
-z-index:999;
+opacity:1;
 
 }
 
-nav h2{
+100%{
 
-color:#00f7ff;
+transform:translateY(-120vh) scale(1.5);
 
-}
-
-nav ul{
-
-display:flex;
-
-list-style:none;
-
-gap:35px;
+opacity:0;
 
 }
 
-nav a{
-
-color:white;
-
-text-decoration:none;
-
-font-weight:500;
-
-transition:.3s;
-
 }
 
-nav a:hover{
-
-color:#00f7ff;
-
-}
+/* Hero */
 
 .hero{
 
@@ -183,19 +143,19 @@ justify-content:center;
 
 align-items:center;
 
-padding:30px;
+text-align:center;
+
+padding:20px;
 
 }
 
-.card{
+.glass{
 
-width:850px;
+width:900px;
 
 padding:60px;
 
-text-align:center;
-
-border-radius:30px;
+border-radius:25px;
 
 background:rgba(255,255,255,.08);
 
@@ -203,39 +163,21 @@ backdrop-filter:blur(25px);
 
 border:1px solid rgba(255,255,255,.15);
 
-box-shadow:0 0 50px rgba(0,255,255,.2);
-
-}
-
-.profile{
-
-width:170px;
-
-height:170px;
-
-border-radius:50%;
-
-border:5px solid cyan;
-
-margin-bottom:20px;
-
-box-shadow:0 0 30px cyan;
+box-shadow:0 0 40px rgba(0,255,255,.25);
 
 }
 
 h1{
 
-font-size:60px;
+font-size:70px;
 
 font-weight:800;
 
-margin-bottom:15px;
+margin-bottom:10px;
 
 }
 
-.title{
-
-font-size:26px;
+h2{
 
 color:#00f7ff;
 
@@ -243,15 +185,13 @@ margin-bottom:20px;
 
 }
 
-.desc{
+p{
 
 font-size:18px;
 
 line-height:1.8;
 
-opacity:.9;
-
-margin-bottom:35px;
+margin-bottom:30px;
 
 }
 
@@ -265,21 +205,17 @@ flex-wrap:wrap;
 
 gap:15px;
 
-margin-bottom:40px;
-
 }
 
 .tech span{
 
 padding:12px 22px;
 
-border-radius:40px;
-
 background:rgba(255,255,255,.1);
 
-transition:.3s;
+border-radius:40px;
 
-cursor:pointer;
+transition:.3s;
 
 }
 
@@ -293,168 +229,25 @@ transform:translateY(-6px);
 
 }
 
-.btn{
-
-padding:15px 35px;
-
-border-radius:40px;
-
-text-decoration:none;
-
-font-weight:bold;
-
-margin:10px;
-
-display:inline-block;
-
-transition:.4s;
-
-}
-
-.primary{
-
-background:#00f7ff;
-
-color:black;
-
-}
-
-.secondary{
-
-border:2px solid cyan;
-
-color:white;
-
-}
-
-.primary:hover{
-
-transform:scale(1.08);
-
-box-shadow:0 0 25px cyan;
-
-}
-
-.secondary:hover{
-
-background:cyan;
-
-color:black;
-
-}
-
-.stats{
-
-display:grid;
-
-grid-template-columns:repeat(4,1fr);
-
-margin-top:50px;
-
-gap:20px;
-
-}
-
-.box{
-
-padding:25px;
-
-border-radius:20px;
-
-background:rgba(255,255,255,.06);
-
-transition:.4s;
-
-}
-
-.box:hover{
-
-transform:translateY(-8px);
-
-box-shadow:0 0 20px cyan;
-
-}
-
-.box h3{
-
-font-size:35px;
-
-color:#00f7ff;
-
-}
-
-.box p{
-
-margin-top:8px;
-
-}
-
-@media(max-width:768px){
-
-h1{
-
-font-size:40px;
-
-}
-
-.stats{
-
-grid-template-columns:repeat(2,1fr);
-
-}
-
-nav ul{
-
-display:none;
-
-}
-
-}
-
 </style>
 
 </head>
 
 <body>
 
-<div class="blob b1"></div>
-<div class="blob b2"></div>
-
-<nav>
-
-<h2>☁ DevOps Portfolio</h2>
-
-<ul>
-
-<li><a href="#">Home</a></li>
-
-<li><a href="#">About</a></li>
-
-<li><a href="#">Projects</a></li>
-
-<li><a href="#">Skills</a></li>
-
-<li><a href="#">Contact</a></li>
-
-</ul>
-
-</nav>
+<div class="particles"></div>
 
 <section class="hero">
 
-<div class="card">
-
-<img src="profile.jpg" class="profile">
+<div class="glass">
 
 <h1>Srinivasan</h1>
 
-<div class="title">
-AWS Cloud & DevOps Engineer
-</div>
+<h2>AWS Cloud & DevOps Engineer</h2>
 
-<p class="desc">
+<p>
 
-Building Secure • Scalable • Automated Cloud Infrastructure using AWS, Terraform, Docker, Jenkins and GitHub Actions.
+Building Secure • Scalable • Automated Cloud Infrastructure
 
 </p>
 
@@ -478,54 +271,36 @@ Building Secure • Scalable • Automated Cloud Infrastructure using AWS, Terra
 
 </div>
 
-<a href="#" class="btn primary">
-🚀 View Projects
-</a>
-
-<a href="#" class="btn secondary">
-📄 Download Resume
-</a>
-
-<div class="stats">
-
-<div class="box">
-
-<h3>4+</h3>
-
-<p>Years Experience</p>
-
-</div>
-
-<div class="box">
-
-<h3>15+</h3>
-
-<p>Projects</p>
-
-</div>
-
-<div class="box">
-
-<h3>10+</h3>
-
-<p>DevOps Tools</p>
-
-</div>
-
-<div class="box">
-
-<h3>24x7</h3>
-
-<p>Automation</p>
-
-</div>
-
-</div>
-
 </div>
 
 </section>
 
-</body>
+<script>
 
+const particles=document.querySelector(".particles");
+
+for(let i=0;i<150;i++){
+
+let particle=document.createElement("span");
+
+let size=Math.random()*6+2;
+
+particle.style.width=size+"px";
+particle.style.height=size+"px";
+
+particle.style.left=Math.random()*100+"vw";
+
+particle.style.animationDuration=(8+Math.random()*12)+"s";
+
+particle.style.animationDelay=Math.random()*10+"s";
+
+particle.style.background=["#00f7ff","#38bdf8","#7c3aed","#ffffff"][Math.floor(Math.random()*4)];
+
+particles.appendChild(particle);
+
+}
+
+</script>
+
+</body>
 </html>
