@@ -1,18 +1,240 @@
-# 💫 About Me:
-# 👋 Hi, I'm Srinivasan<br><br>### AWS Cloud & DevOps Engineer | Linux | Terraform | Docker | Jenkins | CI/CD | Monitoring<br><br><p align="left"><br>  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=0e75b6&style=flat" alt="views"/><br></p><br><br>---<br><br>## 🚀 About Me<br><br>Results-driven AWS Cloud & DevOps Engineer with 4+ years of experience in IT Support, System Administration, and Infrastructure Management, now focused on building secure, scalable, and automated cloud solutions.<br><br>I enjoy designing production-ready AWS infrastructure, automating deployments using Infrastructure as Code, building CI/CD pipelines, and implementing monitoring solutions for highly available environments.<br><br>---<br><br>## ☁️ Cloud & DevOps Skills<br><br>### Cloud<br>- AWS EC2<br>- VPC<br>- IAM<br>- S3<br>- Route53<br>- CloudFront<br>- CloudWatch<br>- CloudTrail<br>- RDS<br>- Lambda<br>- SNS<br>- SQS<br>- DynamoDB<br>- Auto Scaling<br>- Application Load Balancer<br><br>### Infrastructure as Code<br>- Terraform<br>- AWS CloudFormation<br><br>### Containers<br>- Docker<br>- Docker Compose<br><br>### CI/CD<br>- Jenkins<br>- GitHub Actions<br>- GitLab CI/CD<br><br>### Version Control<br>- Git<br>- GitHub<br>- Bitbucket<br><br>### Monitoring<br>- Prometheus<br>- Grafana<br>- Node Exporter<br>- CloudWatch<br><br>### Operating Systems<br>- Linux<br>- Ubuntu<br>- Amazon Linux<br>- CentOS<br>- Windows<br><br>### Scripting<br>- Bash<br>- JSON<br><br>---<br><br># 🔥 Featured Projects<br><br>## 🚀 AWS Secure Cloud Infrastructure<br><br>Designed and deployed a production-ready AWS infrastructure.<br><br>### Features<br><br>- Custom VPC<br>- Public & Private Subnets<br>- Internet Gateway<br>- NAT Gateway<br>- Route Tables<br>- Security Groups<br>- EC2<br>- IAM<br>- S3<br>- RDS<br>- Application Load Balancer<br>- Auto Scaling<br>- CloudWatch Monitoring<br><br>### Technologies<br><br>AWS • Terraform • Linux • Networking<br><br>---<br><br>## 📊 Real-Time Infrastructure Monitoring<br><br>Monitoring platform using Docker, Prometheus and Grafana.<br><br>### Features<br><br>- Docker Containers<br>- Prometheus<br>- Grafana Dashboards<br>- Node Exporter<br>- CPU Monitoring<br>- Memory Monitoring<br>- Disk Monitoring<br>- Alerting<br><br>### Technologies<br><br>Docker • Prometheus • Grafana • Linux<br><br>---<br><br>## ⚙️ CI/CD Pipeline<br><br>Automated deployment pipeline using Jenkins and GitHub Actions.<br><br>### Features<br><br>- Build Automation<br>- Continuous Integration<br>- Continuous Deployment<br>- Git Integration<br>- Infrastructure Deployment<br><br>---<br><br>## 📦 Terraform Infrastructure Modules<br><br>Reusable Terraform modules for AWS.<br><br>Modules include:<br><br>- VPC<br>- EC2<br>- Security Groups<br>- IAM<br>- S3<br>- RDS<br>- Auto Scaling<br>- Load Balancer<br><br>---<br><br>## 🛠️ Technical Skills<br><br>```text<br>AWS<br>Terraform<br>Docker<br>Jenkins<br>GitHub Actions<br>Linux<br>Git<br>CloudFormation<br>CloudWatch<br>Prometheus<br>Grafana<br>Bash<br>Networking<br>IAM<br>VPC<br>EC2<br>S3<br>Route53<br>CloudFront<br>RDS<br>Lambda<br>SNS<br>SQS<br>DynamoDB<br>Docker Compose<br>```<br><br>---<br><br># 📜 Certifications<br><br>- AWS DevOps<br><br>---<br><br># 📈 Currently Learning<br><br>- Kubernetes<br>- Helm<br>- Argo CD<br>- Ansible<br>- Amazon EKS<br>- GitOps<br>- Platform Engineering<br><br>---<br><br># 📫 Connect With Me<br><br>📧 Email:<br>srinivasansri291999@gmail.com<br><br>💼 LinkedIn:<br>https://linkedin.com/in/srinivasan<br><br>🐙 GitHub:<br>https://github.com/srinivasan<br><br>---<br><br>## ⭐ Goals for 2026<br><br>- Build Production AWS Infrastructure<br>- Master Terraform Modules<br>- Learn Kubernetes & EKS<br>- Implement GitOps with Argo CD<br>- Earn AWS Professional Certification<br>- Contribute to Open Source
+<h1 align="center">
+  Hi 👋, I'm Srinivasan
+</h1>
 
+<h3 align="center">
+AWS Cloud ☁️ | DevOps Engineer 🚀 | Terraform ⚡ | Docker 🐳 | Linux 🐧
+</h3>
 
-## 🌐 Socials:
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:srinivasansri291999@gmail.com) 
-
-# 💻 Tech Stack:
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=seenusri29&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=seenusri29&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=seenusri29&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=26&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=AWS+Cloud+Engineer;DevOps+Engineer;Terraform+Specialist;Docker+%7C+Jenkins+%7C+GitHub+Actions;Always+Learning+New+Technologies"/>
+</p>
 
 ---
-[![](https://komarev.com/ghpvc/?username=seenusri29&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+# 💫 About Me
+
+🚀 AWS Cloud & DevOps Engineer
+
+💻 4+ Years of IT Experience
+
+☁️ Passionate about Cloud Infrastructure, Automation and CI/CD
+
+🌱 Currently Learning
+
+- Kubernetes
+- Helm
+- ArgoCD
+- Amazon EKS
+
+🎯 Goal
+
+Become a Senior Cloud & DevOps Engineer
+
+---
+
+# 🌐 Connect With Me
+
+<p align="left">
+<a href="https://linkedin.com/in/srinivasan">
+<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="mailto:srinivasansri291999@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail"/>
+</a>
+
+<a href="https://github.com/srinivasan">
+<img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"/>
+</a>
+</p>
+
+---
+
+# ☁️ Cloud
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=aws"/>
+
+</p>
+
+---
+
+# 🚀 DevOps Stack
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=docker,jenkins,github,git,linux,bash"/>
+
+</p>
+
+---
+
+# ⚡ Infrastructure as Code
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=terraform"/>
+
+</p>
+
+---
+
+# 📊 Monitoring
+
+<p>
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=prometheus,grafana"/>
+
+</p>
+
+---
+
+# 💻 Operating Systems
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,windows"/>
+
+</p>
+
+---
+
+# 🛠 Featured Projects
+
+## ☁️ AWS Secure Cloud Infrastructure
+
+✔ EC2
+
+✔ VPC
+
+✔ IAM
+
+✔ S3
+
+✔ Route53
+
+✔ RDS
+
+✔ ALB
+
+✔ Auto Scaling
+
+✔ CloudWatch
+
+---
+
+## 🚀 Terraform Infrastructure
+
+✔ Reusable Modules
+
+✔ Remote Backend
+
+✔ State Locking
+
+✔ Multi Environment
+
+---
+
+## 🐳 Docker Monitoring Stack
+
+✔ Docker Compose
+
+✔ Prometheus
+
+✔ Grafana
+
+✔ Node Exporter
+
+✔ Alerting
+
+---
+
+## ⚙ Jenkins CI/CD
+
+✔ Build
+
+✔ Test
+
+✔ Deploy
+
+✔ GitHub Actions
+
+---
+
+# 🏆 GitHub Trophy
+
+<p align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&row=1&column=7"/>
+
+</p>
+
+---
+
+# 📊 GitHub Stats
+
+<p align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight"/>
+
+</p>
+
+---
+
+# 🔥 GitHub Streak
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight"/>
+
+</p>
+
+---
+
+# 📈 Contribution Graph
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night"/>
+
+</p>
+
+---
+
+# 💼 Tech Stack
+
+![](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws)
+
+![](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform)
+
+![](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
+
+![](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins)
+
+![](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux)
+
+![](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions)
+
+![](https://img.shields.io/badge/CloudWatch-FF9900?style=for-the-badge)
+
+![](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus)
+
+![](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana)
+
+---
+
+# ⭐ Quote
+
+> "Automate everything. Build once. Deploy everywhere."
+
+---
+
+<p align="center">
+
+⭐ Thanks for visiting my profile ⭐
+
+</p>
