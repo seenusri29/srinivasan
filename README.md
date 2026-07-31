@@ -1,306 +1,225 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+# 👋 Hi, I'm Srinivasan
 
-<title>Srinivasan | AWS Cloud & DevOps Engineer</title>
+### AWS Cloud & DevOps Engineer | Linux | Terraform | Docker | Jenkins | CI/CD | Monitoring
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-}
-
-body{
-background:#050816;
-overflow:hidden;
-color:white;
-}
-
-/* Animated Gradient */
-
-body::before{
-
-content:"";
-
-position:fixed;
-
-width:100%;
-height:100%;
-
-background:linear-gradient(
-135deg,
-#050816,
-#0f172a,
-#1e3a8a,
-#7c3aed,
-#06b6d4,
-#0f172a
-);
-
-background-size:500% 500%;
-
-animation:gradientMove 20s ease infinite;
-
-z-index:-5;
-
-}
-
-@keyframes gradientMove{
-
-0%{background-position:0% 50%;}
-
-50%{background-position:100% 50%;}
-
-100%{background-position:0% 50%;}
-
-}
-
-/* Floating Particles */
-
-.particles{
-
-position:fixed;
-
-top:0;
-left:0;
-
-width:100%;
-height:100%;
-
-overflow:hidden;
-
-z-index:-2;
-
-}
-
-.particles span{
-
-position:absolute;
-
-display:block;
-
-width:6px;
-
-height:6px;
-
-border-radius:50%;
-
-background:#00f7ff;
-
-box-shadow:
-0 0 10px #00f7ff,
-0 0 20px #00f7ff,
-0 0 30px #00f7ff;
-
-animation:float linear infinite;
-
-opacity:.8;
-
-}
-
-@keyframes float{
-
-0%{
-
-transform:translateY(100vh) scale(0);
-
-opacity:0;
-
-}
-
-20%{
-
-opacity:1;
-
-}
-
-100%{
-
-transform:translateY(-120vh) scale(1.5);
-
-opacity:0;
-
-}
-
-}
-
-/* Hero */
-
-.hero{
-
-height:100vh;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-text-align:center;
-
-padding:20px;
-
-}
-
-.glass{
-
-width:900px;
-
-padding:60px;
-
-border-radius:25px;
-
-background:rgba(255,255,255,.08);
-
-backdrop-filter:blur(25px);
-
-border:1px solid rgba(255,255,255,.15);
-
-box-shadow:0 0 40px rgba(0,255,255,.25);
-
-}
-
-h1{
-
-font-size:70px;
-
-font-weight:800;
-
-margin-bottom:10px;
-
-}
-
-h2{
-
-color:#00f7ff;
-
-margin-bottom:20px;
-
-}
-
-p{
-
-font-size:18px;
-
-line-height:1.8;
-
-margin-bottom:30px;
-
-}
-
-.tech{
-
-display:flex;
-
-justify-content:center;
-
-flex-wrap:wrap;
-
-gap:15px;
-
-}
-
-.tech span{
-
-padding:12px 22px;
-
-background:rgba(255,255,255,.1);
-
-border-radius:40px;
-
-transition:.3s;
-
-}
-
-.tech span:hover{
-
-background:#00f7ff;
-
-color:black;
-
-transform:translateY(-6px);
-
-}
-
-</style>
-
-</head>
-
-<body>
-
-<div class="particles"></div>
-
-<section class="hero">
-
-<div class="glass">
-
-<h1>Srinivasan</h1>
-
-<h2>AWS Cloud & DevOps Engineer</h2>
-
-<p>
-
-Building Secure • Scalable • Automated Cloud Infrastructure
-
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=0e75b6&style=flat" alt="views"/>
 </p>
 
-<div class="tech">
+---
 
-<span>☁ AWS</span>
+## 🚀 About Me
 
-<span>🏗 Terraform</span>
+Results-driven AWS Cloud & DevOps Engineer with 4+ years of experience in IT Support, System Administration, and Infrastructure Management, now focused on building secure, scalable, and automated cloud solutions.
 
-<span>🐳 Docker</span>
+I enjoy designing production-ready AWS infrastructure, automating deployments using Infrastructure as Code, building CI/CD pipelines, and implementing monitoring solutions for highly available environments.
 
-<span>⚙ Jenkins</span>
+---
 
-<span>🚀 GitHub Actions</span>
+## ☁️ Cloud & DevOps Skills
 
-<span>🐧 Linux</span>
+### Cloud
+- AWS EC2
+- VPC
+- IAM
+- S3
+- Route53
+- CloudFront
+- CloudWatch
+- CloudTrail
+- RDS
+- Lambda
+- SNS
+- SQS
+- DynamoDB
+- Auto Scaling
+- Application Load Balancer
 
-<span>📊 Grafana</span>
+### Infrastructure as Code
+- Terraform
+- AWS CloudFormation
 
-<span>🔥 Prometheus</span>
+### Containers
+- Docker
+- Docker Compose
 
-</div>
+### CI/CD
+- Jenkins
+- GitHub Actions
+- GitLab CI/CD
 
-</div>
+### Version Control
+- Git
+- GitHub
+- Bitbucket
 
-</section>
+### Monitoring
+- Prometheus
+- Grafana
+- Node Exporter
+- CloudWatch
 
-<script>
+### Operating Systems
+- Linux
+- Ubuntu
+- Amazon Linux
+- CentOS
+- Windows
 
-const particles=document.querySelector(".particles");
+### Scripting
+- Bash
+- JSON
 
-for(let i=0;i<150;i++){
+---
 
-let particle=document.createElement("span");
+# 🔥 Featured Projects
 
-let size=Math.random()*6+2;
+## 🚀 AWS Secure Cloud Infrastructure
 
-particle.style.width=size+"px";
-particle.style.height=size+"px";
+Designed and deployed a production-ready AWS infrastructure.
 
-particle.style.left=Math.random()*100+"vw";
+### Features
 
-particle.style.animationDuration=(8+Math.random()*12)+"s";
+- Custom VPC
+- Public & Private Subnets
+- Internet Gateway
+- NAT Gateway
+- Route Tables
+- Security Groups
+- EC2
+- IAM
+- S3
+- RDS
+- Application Load Balancer
+- Auto Scaling
+- CloudWatch Monitoring
 
-particle.style.animationDelay=Math.random()*10+"s";
+### Technologies
 
-particle.style.background=["#00f7ff","#38bdf8","#7c3aed","#ffffff"][Math.floor(Math.random()*4)];
+AWS • Terraform • Linux • Networking
 
-particles.appendChild(particle);
+---
 
-}
+## 📊 Real-Time Infrastructure Monitoring
 
-</script>
+Monitoring platform using Docker, Prometheus and Grafana.
 
-</body>
-</html>
+### Features
+
+- Docker Containers
+- Prometheus
+- Grafana Dashboards
+- Node Exporter
+- CPU Monitoring
+- Memory Monitoring
+- Disk Monitoring
+- Alerting
+
+### Technologies
+
+Docker • Prometheus • Grafana • Linux
+
+---
+
+## ⚙️ CI/CD Pipeline
+
+Automated deployment pipeline using Jenkins and GitHub Actions.
+
+### Features
+
+- Build Automation
+- Continuous Integration
+- Continuous Deployment
+- Git Integration
+- Infrastructure Deployment
+
+---
+
+## 📦 Terraform Infrastructure Modules
+
+Reusable Terraform modules for AWS.
+
+Modules include:
+
+- VPC
+- EC2
+- Security Groups
+- IAM
+- S3
+- RDS
+- Auto Scaling
+- Load Balancer
+
+---
+
+## 🛠️ Technical Skills
+
+```text
+AWS
+Terraform
+Docker
+Jenkins
+GitHub Actions
+Linux
+Git
+CloudFormation
+CloudWatch
+Prometheus
+Grafana
+Bash
+Networking
+IAM
+VPC
+EC2
+S3
+Route53
+CloudFront
+RDS
+Lambda
+SNS
+SQS
+DynamoDB
+Docker Compose
+```
+
+---
+
+# 📜 Certifications
+
+- AWS DevOps
+
+---
+
+# 📈 Currently Learning
+
+- Kubernetes
+- Helm
+- Argo CD
+- Ansible
+- Amazon EKS
+- GitOps
+- Platform Engineering
+
+---
+
+# 📫 Connect With Me
+
+📧 Email:
+srinivasansri291999@gmail.com
+
+💼 LinkedIn:
+https://linkedin.com/in/srinivasan
+
+🐙 GitHub:
+https://github.com/srinivasan
+
+---
+
+## ⭐ Goals for 2026
+
+- Build Production AWS Infrastructure
+- Master Terraform Modules
+- Learn Kubernetes & EKS
+- Implement GitOps with Argo CD
+- Earn AWS Professional Certification
+- Contribute to Open Source
