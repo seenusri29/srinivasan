@@ -1,11 +1,24 @@
+<p align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:0f172a,20:1e3a8a,40:2563eb,60:06b6d4,80:7c3aed,100:0f172a&text=SRINIVASAN&fontColor=ffffff&fontSize=55&animation=fadeIn&fontAlignY=40&desc=AWS%20Cloud%20%7C%20DevOps%20Engineer&descAlignY=62"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Building+Secure+Cloud+Infrastructure;Terraform+%7C+Docker+%7C+Jenkins;CI%2FCD+Automation;Monitoring+with+Prometheus+%26+Grafana"/>
+
+</p>
+
 # 👋 Hi, I'm Srinivasan
 
 ### AWS Cloud & DevOps Engineer | Linux | Terraform | Docker | Jenkins | CI/CD | Monitoring
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=0e75b6&style=flat" alt="views"/>
-</p>
+<p align="center">
 
+<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile+Views&style=for-the-badge&color=0ea5e9"/>
+
+<img src="https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?style=for-the-badge&logo=github"/>
+
+<img src="https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME?style=for-the-badge"/>
+
+</p>
 ---
 
 ## 🚀 About Me
