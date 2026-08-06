@@ -224,7 +224,7 @@ srinivasansri291999@gmail.com
 https://linkedin.com/in/srinivasan
 
 🐙 GitHub:
-https://github.com/srinivasan
+[https://github.com/srinivasan](https://github.com/seenusri29)
 
 ---
 
